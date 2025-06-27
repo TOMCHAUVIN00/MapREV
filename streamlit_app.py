@@ -7,7 +7,7 @@ import os
 st.title("🗺️ Carte interactive des sites (Excel local)")
 
 # Chemin complet vers le fichier Excel
-file_path = r"C:\Users\tchauvin\Station REV\Station REV - Documents\5. Développement\Test carte.xlsx"
+file_path = r"C:\Users\tchauvin\Station REV\Station REV - Documents\5. Développement\Test carte.xls"
 
 if not os.path.exists(file_path):
     st.error(f"Fichier introuvable : {file_path}")
