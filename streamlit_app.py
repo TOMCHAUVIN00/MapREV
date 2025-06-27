@@ -13,7 +13,7 @@ if not os.path.exists(file_path):
     st.error(f"Fichier introuvable : {file_path}")
 else:
     try:
-        df = pd.read_excel(file_path)
+        df = pd.read_excel(file_path) 
 
         required_cols = ['Nom du site', 'Latitude', 'Longitude', 'État']
         if not all(col in df.columns for col in required_cols):
