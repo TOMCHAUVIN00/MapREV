@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Chemin local vers le fichier
-file_path = r"C:\Users\tchauvin\Station REV\Station REV - Documents\5. Développement\Test carte.xlsx"
+file_path = r"C:\tchauvin\Station REV\Station REV - Documents\5. Développement\Test carte.xlsx"
 
 # Vérifie l'existence du fichier
 if os.path.exists(file_path):
