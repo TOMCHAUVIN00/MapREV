@@ -4,7 +4,7 @@ import folium
 from streamlit_folium import st_folium
 
 file_path = "https://www.dropbox.com/scl/fi/mtsm92eggj6uefnrkmnew/Test-carte.xlsx?rlkey=tkzi1bqb8s7wcusewt47znv0u&st=3476d3gk&dl=1"
-
+ 
 try:
     df = pd.read_excel(file_path)
 
